@@ -32,7 +32,8 @@ a {
 }
 
 a:hover {
-    background-color: rgb(110, 110, 112); 
+    color: rgb(255, 255, 255);
+    background-color: rgb(6, 65, 1); 
 }
 
 i {
