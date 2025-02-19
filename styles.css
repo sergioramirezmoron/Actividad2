@@ -51,11 +51,18 @@ footer {
 }
 
 header{
+    position: fixed;
     text-align: center;
     width: 100%;
     background-color: rgb(4, 49, 0);
     color: rgb(255, 255, 255);
     padding: 10px;
+    top: 0px; 
+    left: 0px;
+}
+
+body {
+    padding-top: 300px;
 }
 
 
