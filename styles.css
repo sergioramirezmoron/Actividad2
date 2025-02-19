@@ -9,14 +9,15 @@ h1 {
 }
 
 ul {
-    list-style-type: none;
-    padding: 0; 
-    width: 280px; 
-    margin: 0 auto; 
+    padding-left: 20%;
+    padding-top: 50px;
+    list-style-type: none; 
+    width: 300px; 
+    margin: auto; 
 }
 
 li {
-    margin: 12px 10px; 
+    margin: 12px; 
 }
 
 a {
@@ -27,8 +28,7 @@ a {
     color: rgb(0, 0, 0); 
     font-size: 25px;
     padding: 8px;
-    border-radius: 18px;
-    width: 80%; 
+    border-radius: 18px; 
 }
 
 a:hover {
@@ -65,6 +65,16 @@ header{
 
 body {
     padding-top: 300px;
+}
+
+img {
+
+    position: fixed;
+    width: 650px;
+    height: 400px;
+    margin-left: 100px;
+    margin-right: 10px;
+    border-radius: 18px;
 }
 
 
