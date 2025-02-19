@@ -5,33 +5,35 @@ html {
 
 h1 {
     font-family: "Atkinson Hyperlegible Mono", serif;
-    text-align: center;
     margin-bottom: 24px;
 }
 
 ul {
     list-style-type: none;
-    padding: 0;
-    width: max-content;
-    margin: 0 auto;
+    padding: auto;
+    width: auto;
 }
 
 li {
     margin-bottom: 12px; 
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 12px;
 }
 
 a {
     font-family: "Atkinson Hyperlegible Mono", serif;
-    display: flex; 
+    display: flexbox; 
     align-items: center; 
     text-decoration: none; 
     color: rgb(0, 0, 0); 
-    font-size: 18px;
-    padding: 8px 12px;
-    border-radius: 10px;
+    font-size: 25px;
+    padding: 8px;
+    border-radius: 18px;
 }
 
 a:hover {
+    border-top: 10px;
     background-color: rgb(110, 110, 112); 
 }
 
